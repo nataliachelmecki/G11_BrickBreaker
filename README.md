@@ -20,7 +20,8 @@ Connect the Bluetooth module to port JC and pair+connect your phone to the BT mo
 - Stop
 - Song 1
 - Song 2
-Also, sound effects may be triggered by changing the code (and were not included as bluetooth commands because a user shouldn't be able to spam sound effects in the game). To hear a sound effect change play_sound variable to 1, and optionally the variable _____ to 1 to hear it loop.
+
+  Also, sound effects may be triggered by changing the code (and were not included as bluetooth commands because a user shouldn't be able to spam sound effects in the game). To hear a sound effect change play_sound variable to 1, and optionally the variable _____ to 1 to hear it loop.
 
 ## Repo
 /doc - Contains the report, along with the presentation showed at the final demo.
