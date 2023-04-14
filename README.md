@@ -2,7 +2,7 @@
 
 ## Table of Contents  
 * [Description](#Description)  
-* [How to Use](#How)
+* [How to Use](#How-to-use)
 * [Repo Structure](#Repo)
 * [Authors](#Authors)
 
