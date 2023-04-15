@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER my_song_byte_sender
+	OPTION supported_peripherals = (my_song_byte_sender);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = my_song_byte_sender;
+END DRIVER

@@ -1,0 +1,77 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port PWM_out_0 -pg 1 -y 630 -defaultsOSRD
+preplace port jc -pg 1 -y 0 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 910 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 980 -defaultsOSRD
+preplace port AUD_SD_0 -pg 1 -y 650 -defaultsOSRD
+preplace port reset -pg 1 -y 820 -defaultsOSRD
+preplace port DDR2_0 -pg 1 -y 70 -defaultsOSRD
+preplace portBus LED_0 -pg 1 -y 670 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -y 120 -defaultsOSRD
+preplace inst my_max_index_sender -pg 1 -lvl 5 -y 1120 -defaultsOSRD
+preplace inst PmodBT2_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst my_divisor_sender -pg 1 -lvl 5 -y 980 -defaultsOSRD
+preplace inst my_index_axi_ip_0 -pg 1 -lvl 6 -y 340 -defaultsOSRD
+preplace inst my_song_byte_sender_0 -pg 1 -lvl 6 -y 490 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 3 -y 140 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 440 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -y 770 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 1080 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -y 760 -defaultsOSRD
+preplace inst music_0 -pg 1 -lvl 6 -y 670 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 990 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 790 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 1030 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 900 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -y 800 -defaultsOSRD
+preplace netloc mig_7series_0_mmcm_locked 1 2 5 650 20 NJ 20 NJ 20 2010J 230 2320
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 4 2 1620 900 1920
+preplace netloc mig_7series_0_DDR2 1 6 1 NJ
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 5 1 2000
+preplace netloc music_0_index 1 5 2 2020 570 2320
+preplace netloc music_0_PWM_out 1 6 1 2340
+preplace netloc axi_uartlite_0_interrupt 1 1 6 310 880 NJ 880 NJ 880 NJ 880 NJ 880 2320
+preplace netloc microblaze_0_intr 1 2 1 NJ
+preplace netloc microblaze_0_Clk 1 0 6 -60 810 270 840 650 640 1030 640 1600 890 2010
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 0 6 -60 -10 260J 10 NJ 10 NJ 10 NJ 10 1950
+preplace netloc microblaze_0_intc_axi 1 2 4 680 270 1040J 150 NJ 150 1920
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 1970
+preplace netloc microblaze_0_interrupt 1 3 1 N
+preplace netloc microblaze_0_ilmb_1 1 4 1 N
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 0 6 -50 240 NJ 240 NJ 240 1030J 140 NJ 140 1940
+preplace netloc microblaze_0_axi_dp 1 4 1 1570
+preplace netloc PmodBT2_0_BT2_uart_interrupt 1 1 1 290
+preplace netloc mig_7series_0_ui_clk 1 2 5 660 250 NJ 250 1580 50 1980J 0 2330
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 3 3 NJ 180 1590 120 2000J
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 670J 650 NJ 650 1550
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 1980
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 0 6 -40 260 N 260 660 260 NJ 260 1560 130 1960
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 680 870 1050J
+preplace netloc clk_wiz_1_locked 1 1 1 260
+preplace netloc axi_uartlite_0_UART 1 6 1 NJ
+preplace netloc music_0_AUD_SD 1 6 1 2330
+preplace netloc clk_wiz_1_clk_out2 1 1 5 280J 0 NJ 0 NJ 0 NJ 0 1970
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 2 5 680 30 NJ 30 NJ 30 1990J 10 2320
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 4 2 1610 160 1930
+preplace netloc PmodBT2_0_Pmod_out 1 1 6 270J -10 NJ -10 NJ -10 NJ -10 NJ -10 2340
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1990
+preplace netloc microblaze_0_dlmb_1 1 4 1 N
+preplace netloc my_divisor_sender_song_byte 1 5 1 2000
+preplace netloc microblaze_0_debug 1 3 1 1040
+preplace netloc my_song_byte_sender_0_song_byte 1 5 2 2020 580 2330
+preplace netloc reset_1 1 0 6 -50 820 300 40 NJ 40 NJ 40 NJ 40 2020
+preplace netloc mdm_1_debug_sys_rst 1 1 3 310 1150 NJ 1150 1040
+preplace netloc my_song_byte_sender_1_song_byte 1 5 1 2020
+preplace netloc music_0_LED 1 6 1 2340
+levelinfo -pg 1 -80 110 480 860 1310 1770 2180 2360 -top -20 -bot 1200
+"
+}
+{
+   "da_axi4_cnt":"11",
+   "da_board_cnt":"5",
+   "da_mb_cnt":"1"
+}

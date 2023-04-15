@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER my_audio_player
+	OPTION supported_peripherals = (my_audio_player);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = my_audio_player;
+END DRIVER
