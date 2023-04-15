@@ -9,7 +9,7 @@
 ## Description
 
 ## How to Use 
-To use this repo, please add the source files to a new Vivado project. Generate a bitstream, then use the projects under /src/<project>/<project>.sdk to create your C++ project.
+To use this repo, please add the source files to a new Vivado project. Generate a bitstream, then use the projects under /src/project/project.sdk to create your C++ project.
 Program your FPGA, compile the code and run it. The FPGA board should be connected to a display with a VGA cable. Place a Bluetooth module into port JC and 
 joystick module into port JA. Use the base directory as a new IP repo so that the Vivado project can import all the proper IP.
 
