@@ -32,7 +32,7 @@ Also, sound effects may be triggered by changing the C code (they were not inclu
 
 
 
-You may also extract and use the following IPs we created or modified:
+You may also extract and use separately the following IPs we created or modified:
 
 /src/game/IPs/simple_timer - Please refer to section 4.2 Simple Timer of our group report.
 
