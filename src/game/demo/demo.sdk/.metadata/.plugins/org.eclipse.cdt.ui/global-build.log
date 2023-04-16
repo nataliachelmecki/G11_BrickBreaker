@@ -1,0 +1,1220 @@
+14:17:38 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+14:18:18 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3834	    380	   3114	   7328	   1ca0	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+18:38:44 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+18:38:46 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mxl-frequency -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+18:40:09 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mxl-frequency -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+18:42:12 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+19:12:05 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/bram_v4_2/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+mb-gcc: error: o: No such file or directory
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make[1]: *** [libs] Error 1
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+make: *** [microblaze_0/libsrc/cpu_v2_6/src/make.libs] Error 2
+"Compiling intc"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/intc_v3_7/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+mb-gcc: error: o: No such file or directory
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [microblaze_0/libsrc/standalone_v6_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/uartlite_v3_2/src/make.libs] Error 2
+make: Target `all' not remade because of errors.
+20:46:53 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+20:46:54 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:9:10: fatal error: xil_malloc.h: No such file or directory
+ #include "xil_malloc.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+20:51:08 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:54:24: error: invalid suffix "_SEGMENT_0" on integer constant
+ volatile unsigned int* 7_SEGMENT_0 = (unsigned int*) XPAR_SCORECONVERTER_0_BASEADDR;
+                        ^~~~~~~~~~~
+../src/main.c:54:24: error: expected identifier or '(' before numeric constant
+../src/main.c:55:24: error: invalid suffix "_SEGMENT_1" on integer constant
+ volatile unsigned int* 7_SEGMENT_1 = (unsigned int*) (XPAR_SCORECONVERTER_0_BASEADDR + 0x04);
+                        ^~~~~~~~~~~
+../src/main.c:55:24: error: expected identifier or '(' before numeric constant
+../src/main.c:450:1: warning: parameter names (without types) in function declaration
+ void _circle_(center_x, center_y, color);
+ ^~~~
+../src/main.c: In function '_circle_':
+../src/main.c:451:6: warning: type of 'center_x' defaults to 'int' [-Wimplicit-int]
+ void _circle_(center_x, center_y, color){
+      ^~~~~~~~
+../src/main.c:451:6: warning: type of 'center_y' defaults to 'int' [-Wimplicit-int]
+../src/main.c:451:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:456:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(center_x) - 16, 0);
+                ^
+../src/main.c:457:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(center_y) - 16, 0);
+                 ^
+../src/main.c:458:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(center_x) + 16, GameWidth);
+                 ^
+../src/main.c:459:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(center_y) + 16, GameHeight);
+                 ^
+../src/main.c:461:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:462:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawCircle;
+                   ^
+../src/main.c: At top level:
+../src/main.c:466:1: warning: parameter names (without types) in function declaration
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color);
+ ^~~~
+../src/main.c: In function '_bar_':
+../src/main.c:467:6: warning: type of 'boundary_left' defaults to 'int' [-Wimplicit-int]
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color){
+      ^~~~~
+../src/main.c:467:6: warning: type of 'boundary_upper' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_right' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_lower' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:472:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(boundary_left), 0);
+                ^
+../src/main.c:473:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(boundary_upper), 0);
+                 ^
+../src/main.c:474:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(boundary_right), GameWidth);
+                 ^
+../src/main.c:475:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(boundary_lower), GameHeight);
+                 ^
+../src/main.c:477:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:478:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawRectangle;
+                   ^
+../src/main.c: In function 'main':
+../src/main.c:773:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:778:23: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+   }while((JSTK_BUTTON & LeftButton) == 0);
+                       ^
+../src/main.c:781:3: error: invalid suffix "_SEGMENT_1" on integer constant
+   7_SEGMENT_1 = score;
+   ^~~~~~~~~~~
+../src/main.c:782:3: error: invalid suffix "_SEGMENT_0" on integer constant
+   7_SEGMENT_0 = lives;
+   ^~~~~~~~~~~
+../src/main.c:796:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:800:31: error: invalid operands to binary / (have 'const volatile unsigned int *' and 'double')
+    bar_velocity = ((X_POSITION/511.5) - 1) * BarSpeed;
+                               ^
+../src/main.c:959:8: error: '_bar' undeclared (first use in this function); did you mean '_bar_'?
+        _bar+(j*BrickWidth, i*BrickHeight, (j+1)*BrickWidth, (i+1)*BrickHeight, Black);
+        ^~~~
+        _bar_
+../src/main.c:959:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:959:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        _bar+(j*BrickWidth, i*BrickHeight, (j+1)*BrickWidth, (i+1)*BrickHeight, Black);
+                          ^
+../src/main.c:959:41: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        _bar+(j*BrickWidth, i*BrickHeight, (j+1)*BrickWidth, (i+1)*BrickHeight, Black);
+                                         ^
+../src/main.c:959:59: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        _bar+(j*BrickWidth, i*BrickHeight, (j+1)*BrickWidth, (i+1)*BrickHeight, Black);
+                                                           ^
+../src/main.c:959:78: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        _bar+(j*BrickWidth, i*BrickHeight, (j+1)*BrickWidth, (i+1)*BrickHeight, Black);
+                                                                              ^
+../src/main.c:1012:8: error: a label can only be part of a statement and a declaration is not a statement
+        float center_x = ( (bar_obj.left_edge) + (bar_obj.right_edge) )/2;
+        ^~~~~
+../src/main.c:1042:4: error: invalid suffix "_SEGMENT_1" on integer constant
+    7_SEGMENT_1 = score;
+    ^~~~~~~~~~~
+../src/main.c:1057:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       GAME_OVER = 1;
+                 ^
+../src/main.c:1059:7: error: invalid suffix "_SEGMENT_0" on integer constant
+       7_SEGMENT_0 = lives;
+       ^~~~~~~~~~~
+../src/main.c:1063:27: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+       }while((JSTK_BUTTON & RightButton) == 0);
+                           ^
+../src/main.c:1070:4: error: invalid suffix "_SEGMENT_0" on integer constant
+    7_SEGMENT_0 = lives;
+    ^~~~~~~~~~~
+../src/main.c:1074:18: warning: comparison between pointer and integer
+    while(TIMER_0 < FrameClocks){
+                  ^
+make: *** [src/main.o] Error 1
+20:51:22 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:54:24: error: invalid suffix "_SEGMENT_0" on integer constant
+ volatile unsigned int* 7_SEGMENT_0 = (unsigned int*) XPAR_SCORECONVERTER_0_BASEADDR;
+                        ^~~~~~~~~~~
+../src/main.c:54:24: error: expected identifier or '(' before numeric constant
+../src/main.c:55:24: error: invalid suffix "_SEGMENT_1" on integer constant
+ volatile unsigned int* 7_SEGMENT_1 = (unsigned int*) (XPAR_SCORECONVERTER_0_BASEADDR + 0x04);
+                        ^~~~~~~~~~~
+../src/main.c:55:24: error: expected identifier or '(' before numeric constant
+../src/main.c:450:1: warning: parameter names (without types) in function declaration
+ void _circle_(center_x, center_y, color);
+ ^~~~
+../src/main.c: In function '_circle_':
+../src/main.c:451:6: warning: type of 'center_x' defaults to 'int' [-Wimplicit-int]
+ void _circle_(center_x, center_y, color){
+      ^~~~~~~~
+../src/main.c:451:6: warning: type of 'center_y' defaults to 'int' [-Wimplicit-int]
+../src/main.c:451:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:456:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(center_x) - 16, 0);
+                ^
+../src/main.c:457:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(center_y) - 16, 0);
+                 ^
+../src/main.c:458:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(center_x) + 16, GameWidth);
+                 ^
+../src/main.c:459:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(center_y) + 16, GameHeight);
+                 ^
+../src/main.c:461:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:462:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawCircle;
+                   ^
+../src/main.c: At top level:
+../src/main.c:466:1: warning: parameter names (without types) in function declaration
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color);
+ ^~~~
+../src/main.c: In function '_bar_':
+../src/main.c:467:6: warning: type of 'boundary_left' defaults to 'int' [-Wimplicit-int]
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color){
+      ^~~~~
+../src/main.c:467:6: warning: type of 'boundary_upper' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_right' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_lower' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:472:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(boundary_left), 0);
+                ^
+../src/main.c:473:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(boundary_upper), 0);
+                 ^
+../src/main.c:474:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(boundary_right), GameWidth);
+                 ^
+../src/main.c:475:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(boundary_lower), GameHeight);
+                 ^
+../src/main.c:477:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:478:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawRectangle;
+                   ^
+../src/main.c: In function 'main':
+../src/main.c:773:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:778:23: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+   }while((JSTK_BUTTON & LeftButton) == 0);
+                       ^
+../src/main.c:781:3: error: invalid suffix "_SEGMENT_1" on integer constant
+   7_SEGMENT_1 = score;
+   ^~~~~~~~~~~
+../src/main.c:782:3: error: invalid suffix "_SEGMENT_0" on integer constant
+   7_SEGMENT_0 = lives;
+   ^~~~~~~~~~~
+../src/main.c:796:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:800:31: error: invalid operands to binary / (have 'const volatile unsigned int *' and 'double')
+    bar_velocity = ((X_POSITION/511.5) - 1) * BarSpeed;
+                               ^
+../src/main.c:1012:8: error: a label can only be part of a statement and a declaration is not a statement
+        float center_x = ( (bar_obj.left_edge) + (bar_obj.right_edge) )/2;
+        ^~~~~
+../src/main.c:1042:4: error: invalid suffix "_SEGMENT_1" on integer constant
+    7_SEGMENT_1 = score;
+    ^~~~~~~~~~~
+../src/main.c:1057:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       GAME_OVER = 1;
+                 ^
+../src/main.c:1059:7: error: invalid suffix "_SEGMENT_0" on integer constant
+       7_SEGMENT_0 = lives;
+       ^~~~~~~~~~~
+../src/main.c:1063:27: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+       }while((JSTK_BUTTON & RightButton) == 0);
+                           ^
+../src/main.c:1070:4: error: invalid suffix "_SEGMENT_0" on integer constant
+    7_SEGMENT_0 = lives;
+    ^~~~~~~~~~~
+../src/main.c:1074:18: warning: comparison between pointer and integer
+    while(TIMER_0 < FrameClocks){
+                  ^
+make: *** [src/main.o] Error 1
+20:52:32 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:54:24: error: invalid suffix "_SEGMENT_0" on integer constant
+ volatile unsigned int* 7_SEGMENT_0 = (unsigned int*) XPAR_SCORECONVERTER_0_BASEADDR;
+                        ^~~~~~~~~~~
+../src/main.c:54:24: error: expected identifier or '(' before numeric constant
+../src/main.c:55:24: error: invalid suffix "_SEGMENT_1" on integer constant
+ volatile unsigned int* 7_SEGMENT_1 = (unsigned int*) (XPAR_SCORECONVERTER_0_BASEADDR + 0x04);
+                        ^~~~~~~~~~~
+../src/main.c:55:24: error: expected identifier or '(' before numeric constant
+../src/main.c:450:1: warning: parameter names (without types) in function declaration
+ void _circle_(center_x, center_y, color);
+ ^~~~
+../src/main.c: In function '_circle_':
+../src/main.c:451:6: warning: type of 'center_x' defaults to 'int' [-Wimplicit-int]
+ void _circle_(center_x, center_y, color){
+      ^~~~~~~~
+../src/main.c:451:6: warning: type of 'center_y' defaults to 'int' [-Wimplicit-int]
+../src/main.c:451:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:456:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(center_x) - 16, 0);
+                ^
+../src/main.c:457:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(center_y) - 16, 0);
+                 ^
+../src/main.c:458:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(center_x) + 16, GameWidth);
+                 ^
+../src/main.c:459:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(center_y) + 16, GameHeight);
+                 ^
+../src/main.c:461:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:462:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawCircle;
+                   ^
+../src/main.c: At top level:
+../src/main.c:466:1: warning: parameter names (without types) in function declaration
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color);
+ ^~~~
+../src/main.c: In function '_bar_':
+../src/main.c:467:6: warning: type of 'boundary_left' defaults to 'int' [-Wimplicit-int]
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color){
+      ^~~~~
+../src/main.c:467:6: warning: type of 'boundary_upper' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_right' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_lower' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:472:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(boundary_left), 0);
+                ^
+../src/main.c:473:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(boundary_upper), 0);
+                 ^
+../src/main.c:474:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(boundary_right), GameWidth);
+                 ^
+../src/main.c:475:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(boundary_lower), GameHeight);
+                 ^
+../src/main.c:477:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:478:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawRectangle;
+                   ^
+../src/main.c: In function 'main':
+../src/main.c:773:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:778:23: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+   }while((JSTK_BUTTON & LeftButton) == 0);
+                       ^
+../src/main.c:781:3: error: invalid suffix "_SEGMENT_1" on integer constant
+   7_SEGMENT_1 = score;
+   ^~~~~~~~~~~
+../src/main.c:782:3: error: invalid suffix "_SEGMENT_0" on integer constant
+   7_SEGMENT_0 = lives;
+   ^~~~~~~~~~~
+../src/main.c:796:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:800:31: error: invalid operands to binary / (have 'const volatile unsigned int *' and 'double')
+    bar_velocity = ((X_POSITION/511.5) - 1) * BarSpeed;
+                               ^
+../src/main.c:1012:8: error: a label can only be part of a statement and a declaration is not a statement
+        float center_x = ( (bar_obj.left_edge) + (bar_obj.right_edge) )/2;
+        ^~~~~
+../src/main.c:1042:4: error: invalid suffix "_SEGMENT_1" on integer constant
+    7_SEGMENT_1 = score;
+    ^~~~~~~~~~~
+../src/main.c:1057:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       GAME_OVER = 1;
+                 ^
+../src/main.c:1059:7: error: invalid suffix "_SEGMENT_0" on integer constant
+       7_SEGMENT_0 = lives;
+       ^~~~~~~~~~~
+../src/main.c:1063:27: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+       }while((JSTK_BUTTON & RightButton) == 0);
+                           ^
+../src/main.c:1070:4: error: invalid suffix "_SEGMENT_0" on integer constant
+    7_SEGMENT_0 = lives;
+    ^~~~~~~~~~~
+../src/main.c:1074:18: warning: comparison between pointer and integer
+    while(TIMER_0 < FrameClocks){
+                  ^
+make: *** [src/main.o] Error 1
+20:54:26 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:450:1: warning: parameter names (without types) in function declaration
+ void _circle_(center_x, center_y, color);
+ ^~~~
+../src/main.c: In function '_circle_':
+../src/main.c:451:6: warning: type of 'center_x' defaults to 'int' [-Wimplicit-int]
+ void _circle_(center_x, center_y, color){
+      ^~~~~~~~
+../src/main.c:451:6: warning: type of 'center_y' defaults to 'int' [-Wimplicit-int]
+../src/main.c:451:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:456:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(center_x) - 16, 0);
+                ^
+../src/main.c:457:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(center_y) - 16, 0);
+                 ^
+../src/main.c:458:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(center_x) + 16, GameWidth);
+                 ^
+../src/main.c:459:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(center_y) + 16, GameHeight);
+                 ^
+../src/main.c:461:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:462:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawCircle;
+                   ^
+../src/main.c: At top level:
+../src/main.c:466:1: warning: parameter names (without types) in function declaration
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color);
+ ^~~~
+../src/main.c: In function '_bar_':
+../src/main.c:467:6: warning: type of 'boundary_left' defaults to 'int' [-Wimplicit-int]
+ void _bar_(boundary_left, boundary_upper, boundary_right, boundary_lower, color){
+      ^~~~~
+../src/main.c:467:6: warning: type of 'boundary_upper' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_right' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'boundary_lower' defaults to 'int' [-Wimplicit-int]
+../src/main.c:467:6: warning: type of 'color' defaults to 'int' [-Wimplicit-int]
+../src/main.c:472:16: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LEFT_BOUNDARY = _max_(round(boundary_left), 0);
+                ^
+../src/main.c:473:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  UPPER_BOUNDARY = _max_(round(boundary_upper), 0);
+                 ^
+../src/main.c:474:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  RIGHT_BOUNDARY = _min_(round(boundary_right), GameWidth);
+                 ^
+../src/main.c:475:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  LOWER_BOUNDARY = _min_(round(boundary_lower), GameHeight);
+                 ^
+../src/main.c:477:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_COLOR = color;
+             ^
+../src/main.c:478:19: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  DRAW_INSTRUCTION = DrawRectangle;
+                   ^
+../src/main.c: In function 'main':
+../src/main.c:773:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:778:23: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+   }while((JSTK_BUTTON & LeftButton) == 0);
+                       ^
+../src/main.c:781:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   SEGMENT_1 = score;
+             ^
+../src/main.c:782:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+   SEGMENT_0 = lives;
+             ^
+../src/main.c:796:19: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+    if(JSTK_BUTTON & RightButton){
+                   ^
+../src/main.c:800:31: error: invalid operands to binary / (have 'const volatile unsigned int *' and 'double')
+    bar_velocity = ((X_POSITION/511.5) - 1) * BarSpeed;
+                               ^
+../src/main.c:1012:8: error: a label can only be part of a statement and a declaration is not a statement
+        float center_x = ( (bar_obj.left_edge) + (bar_obj.right_edge) )/2;
+        ^~~~~
+../src/main.c:1042:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+    SEGMENT_1 = score;
+              ^
+../src/main.c:1057:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       GAME_OVER = 1;
+                 ^
+../src/main.c:1059:17: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+       SEGMENT_0 = lives;
+                 ^
+../src/main.c:1063:27: error: invalid operands to binary & (have 'const volatile unsigned int *' and 'int')
+       }while((JSTK_BUTTON & RightButton) == 0);
+                           ^
+../src/main.c:1070:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+    SEGMENT_0 = lives;
+              ^
+../src/main.c:1074:18: warning: comparison between pointer and integer
+    while(TIMER_0 < FrameClocks){
+                  ^
+make: *** [src/main.o] Error 1
+09:33:54 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+09:35:38 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+09:35:40 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+09:38:59 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+09:39:01 **** Clean-only build of project brick_breaker_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+09:39:02 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/bram_v4_2/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/cpu_v2_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/intc_v3_7/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+mb-gcc: error: o: No such file or directory
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [microblaze_0/libsrc/standalone_v6_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/uartlite_v3_2/src/make.libs] Error 2
+make: Target `all' not remade because of errors.
+09:39:53 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+09:41:32 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/bram_v4_2/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/cpu_v2_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/intc_v3_7/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+mb-gcc: error: o: No such file or directory
+make[1]: *** [standalone_libs] Error 1
+make[1]: Target `libs' not remade because of errors.
+make: *** [microblaze_0/libsrc/standalone_v6_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno o -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+mb-gcc: error: o: No such file or directory
+make[1]: *** [libs] Error 1
+make: *** [microblaze_0/libsrc/uartlite_v3_2/src/make.libs] Error 2
+make: Target `all' not remade because of errors.
+09:41:53 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+10:10:07 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+'Finished building libraries'
+10:10:08 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+10:11:59 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+'Finished building libraries'
+10:12:05 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/platform.o: In function `enable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:60: undefined reference to `microblaze_enable_icache'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:63: undefined reference to `microblaze_enable_dcache'
+./src/platform.o: In function `disable_caches':
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:73: undefined reference to `Xil_DCacheDisable'
+D:\On_MicroBlaze_Demo\demo.sdk\brick_breaker\Debug/../src/platform.c:76: undefined reference to `Xil_ICacheDisable'
+collect2.exe: error: ld returned 1 exit status
+make: *** [brick_breaker.elf] Error 1
+10:13:19 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+10:13:20 **** Clean-only build of project brick_breaker_bsp ****
+make -k clean 
+rm -f microblaze_0/lib/libxil.a
+10:13:22 **** Build of project brick_breaker_bsp ****
+make -k all 
+'Finished building libraries'
+10:13:22 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+10:15:33 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+make: *** No rule to make target `all'.
+10:15:34 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+10:15:55 **** Auto Build of project brick_breaker_bsp ****
+make -k all 
+make: *** No rule to make target `all'.
+10:15:56 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+10:20:03 **** Build of project brick_breaker_bsp ****
+make -k all 
+make: *** No rule to make target `all'.
+10:20:04 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+10:27:20 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:7:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+10:29:32 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+'Finished building libraries'
+10:30:38 **** Auto Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31654	   1476	   3174	  36304	   8dd0	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+10:31:10 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+10:31:11 **** Clean-only build of project brick_breaker_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+10:31:13 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+'Finished building libraries'
+10:31:49 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31654	   1476	   3174	  36304	   8dd0	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+10:55:43 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+10:55:46 **** Clean-only build of project brick_breaker_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+10:55:51 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+'Finished building libraries'
+10:56:54 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31690	   1476	   3178	  36344	   8df8	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+10:57:46 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+make: Nothing to be done for `all'.
+11:59:13 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+make: Nothing to be done for `all'.
+12:34:30 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31762	   1476	   3178	  36416	   8e40	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+12:13:33 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+make: Nothing to be done for `all'.
+12:14:36 **** Incremental Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31786	   1476	   3178	  36440	   8e58	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
+12:15:03 **** Clean-only build of configuration Debug for project brick_breaker ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  brick_breaker.elf.size  brick_breaker.elf
+' '
+12:15:03 **** Clean-only build of project brick_breaker_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_6/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_7/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_6/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+12:15:04 **** Build of project brick_breaker_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-float-convert -mxl-float-sqrt -mxl-frequency -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -fno-math-errno -mhard-float -mxl-float-sqrt"
+"Compiling uartlite"
+'Finished building libraries'
+12:15:35 **** Build of configuration Debug for project brick_breaker ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mxl-frequency -I../../brick_breaker_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: brick_breaker.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../brick_breaker_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "brick_breaker.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: brick_breaker.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size brick_breaker.elf  |tee "brick_breaker.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31786	   1476	   3178	  36440	   8e58	brick_breaker.elf
+'Finished building: brick_breaker.elf.size'
+' '
